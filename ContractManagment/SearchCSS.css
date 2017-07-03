@@ -1,0 +1,9 @@
+﻿body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+h1{
+    font-family:'Roboto';
+}

@@ -1,0 +1,32 @@
+﻿body {
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-color:gray;
+}
+
+#wrapper{
+
+    width:1200px;
+    height:360px;
+}
+h1{
+    font-family:'Roboto';
+    text-align:center;
+    font-size:50px;
+}
+h2{
+    font-family:'Roboto';
+    color:gray;
+    text-align:center;
+}
+td{
+    font-family:'Roboto';
+    color: black;
+    text-align:center;
+
+}
+table{
+    margin:0 auto 0 auto;
+    
+}
