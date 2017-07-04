@@ -1,0 +1,1 @@
+﻿INSERT INTO UserTable (UserName, UserPassword) VALUES ('emir','11111');

@@ -11,7 +11,19 @@
 <body>
     <form id="form1" runat="server">
         <h1>Search Contract</h1>
-        <div>
+        <div class ="wrapper">
+            <td align="center">
+                <asp:Label runat="server" AssociatedControlID="UserName" ID="UserNameLabel">Properity 1:</asp:Label>
+            </td>
+            <td>
+                <asp:TextBox runat="server" ID="UserName"></asp:TextBox>
+            </td>
+             <td align="center">
+                <asp:Label runat="server" AssociatedControlID="UserName" ID="Label1">Properity 1:</asp:Label>
+            </td>
+            <td>
+                <asp:TextBox runat="server" ID="TextBox1"></asp:TextBox>
+            </td>
         </div>
     </form>
 </body>

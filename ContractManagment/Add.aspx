@@ -6,13 +6,14 @@
 <head runat="server">
     <title>CMS - Add Contract</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"/> 
-    <link href="/AddStyle.css" rel="stylesheet" />
+    <link href="AddStyle.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <h1>Add Contract</h1>
-        <div>
-        </div>
+    <form class="form1" runat="server">
+        <h1>ADD</h1>
+        <p>aaa</p>
+        <p>aaa</p>
+        <p>aaa</p> 
     </form>
 </body>
 </html>

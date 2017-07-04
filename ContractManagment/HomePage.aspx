@@ -5,18 +5,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link href="/HomePageStyle.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"/> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"/>
     <title>CMS - Home</title>
 </head>
 <body>
     <h1>Welcome to CMS</h1>
-    <h4>Profile: xxxxx </h4>
+    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     <form id="form1" runat="server">
         <div class="navigator">
             <nav>
                 <ul>
                     <li><a href="Search.aspx">Search Contract</a></li>
                     <li><a href="Add.aspx">Add Contract</a></li>
+                    <li><a href="ContractManagment.aspx">Logout</a></li>
                 </ul>
             </nav>
 
@@ -27,15 +28,6 @@
                     <td>ID </td>
                     <td>Name </td>
                     <td>Pass</td>
-                    <td>Pass</td>
-                    <td>Pass</td>
-                    <td>Pass</td>
-                    <td>Delete</td>
-                    <td>Delete</td>
-                    <td>Delete</td>
-                    <td>Delete</td>
-                    <td>Delete</td>
-
                 </tr>
             </table>
         </div>
@@ -58,7 +50,6 @@
                 <WeekendDayStyle BackColor="#FFFFCC"></WeekendDayStyle>
             </asp:Calendar>
         </div>
-            
     </form>
 </body>
 </html>

@@ -7,11 +7,13 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 namespace ContractManagment
 {
+   
     public partial class HomePage : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ContractManagment cont = new ContractManagment();     
         }
 
         public string getWhileLoopData()
@@ -34,5 +36,7 @@ namespace ContractManagment
             thisConnection.Close();
             return htmlStr;
         }
+      
+        
     }
 }

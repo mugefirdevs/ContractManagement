@@ -6,4 +6,9 @@
 }
 h1{
     font-family:'Roboto';
+    text-align:center;
+}
+.wrapper{
+    position:absolute;
+    text-align:center;
 }
