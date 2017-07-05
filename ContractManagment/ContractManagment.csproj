@@ -67,7 +67,6 @@
   <ItemGroup>
     <Content Include="Add.aspx" />
     <Content Include="AddStyle.css" />
-    <Content Include="Database1.mdf" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

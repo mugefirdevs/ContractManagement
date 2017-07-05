@@ -19,7 +19,7 @@ namespace ContractManagment
         }
         protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
         {
-            string strConnection = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ContractDatabase;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string strConnection = "Data Source=contract.database.windows.net;Initial Catalog=ContractManagmentSystem;Integrated Security=False;User ID=cms;Password=Efm12345;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection sqlConnection = new SqlConnection(strConnection);
 
             try
