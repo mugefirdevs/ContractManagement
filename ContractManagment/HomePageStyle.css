@@ -2,44 +2,51 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color:gray;
+    background-color: gray;
 }
-h1{
-    font-family:'Roboto';
-    text-align:center;
+
+h1 {
+    font-family: 'Roboto';
+    text-align: center;
 }
+
 h4 {
     font-family: 'Roboto';
-    text-align:right;
+    text-align: right;
+}
 
+.navigator {
+    position: absolute;
 }
-.navigator{
-    position:absolute;
+
+li {
+    font-family: 'Roboto';
+    padding-bottom: 10px;
 }
-li{
-    font-family:'Roboto';
-    padding-bottom:10px;
+
+a {
+    display: inline;
+    color: black;
 }
-a{
-    display:inline;
-    color:black;
-}
-.Calendar{
-    position:absolute;
-    margin-left:22px;
-    margin-top:100px;
+
+.Calendar {
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 100px;
     top: 147px;
     left: 15px;
 }
-.dataTable table{
-    position:absolute;
-    margin-left:300px;
-    margin-top:18px;
+
+.dataTable table {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 18px;
     top: 144px;
     left: 25px;
     width: 364px;
 }
-.dataTable td{
-    font-family:'Roboto';
-    padding-right:23px;
+
+.dataTable td {
+    font-family: 'Roboto';
+    padding-right: 23px;
 }

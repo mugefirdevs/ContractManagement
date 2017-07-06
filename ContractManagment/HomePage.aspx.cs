@@ -36,7 +36,5 @@ namespace ContractManagment
             thisConnection.Close();
             return htmlStr;
         }
-      
-        
     }
 }

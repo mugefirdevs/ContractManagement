@@ -67,6 +67,10 @@
   <ItemGroup>
     <Content Include="Add.aspx" />
     <Content Include="AddStyle.css" />
+    <Content Include="css\pikaday.css" />
+    <Content Include="css\site.css" />
+    <Content Include="css\theme.css" />
+    <Content Include="css\triangle.css" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,6 +84,7 @@
     <Content Include="ContractManagmentStyle.css" />
     <Content Include="HomePage.aspx" />
     <Content Include="HomePageStyle.css" />
+    <Content Include="pikaday.js" />
     <Content Include="Search.aspx" />
     <Content Include="SearchCSS.css" />
     <Content Include="Web.config" />

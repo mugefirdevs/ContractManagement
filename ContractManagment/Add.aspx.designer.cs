@@ -67,22 +67,22 @@ namespace ContractManagment {
         protected global::System.Web.UI.WebControls.TextBox RiskBox;
         
         /// <summary>
-        /// TextBox8 control.
+        /// EffectiveBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox EffectiveBox;
         
         /// <summary>
-        /// TextBox9 control.
+        /// ExpiryBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.TextBox ExpiryBox;
         
         /// <summary>
         /// CommentBox control.
